@@ -1,8 +1,151 @@
-/*
-Colors:
+/* Configuración global del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    /* Tipo de fuente para todo el sitio */
+    margin: 0;
+    /* Elimina los márgenes predeterminados del navegador */
+    padding: 0;
+    /* Elimina el espacio interno */
+    background-color: rgb(252, 250, 250)2;
+    /* Color de fondo oscuro */
+    color: black;
+    /* Color del texto */
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* Estilos para la barra de navegación */
+.navbar {
+    position: fixed;
+    /* Fija la barra en la parte superior */
+    top: 0;
+    /* La coloca en la parte superior de la pantalla */
+    width: 100%;
+    /* Ocupa todo el ancho */
+    display: flex;
+    /* Usa flexbox para organizar los elementos */
+    justify-content: space-around;
+    /* Espaciado entre el logo y los enlaces */
+    align-items: flex-end;
+    /* Alineación vertical */
+    background-color: #ffffff;
+    /* Fondo negro */
+    padding: 10px 20px;
+    /* Espaciado interno */
+}
 
-*/
+/* Estilos para la lista de navegación */
+.navbar ul {
+    list-style: none;
+    /* Quita los estilos de lista predeterminados */
+    display: flex;
+    /* Organiza los elementos en línea */
+    gap: 15px;
+    /* Espaciado entre los enlaces */
+}
+
+/* Estilos para los enlaces de navegación */
+.navbar a {
+    color: rgb(0, 0, 0);
+    /* Color del texto */
+}
+
+/* Sección principal con imagen de fondo */
+.principal {
+    display: flex;
+    /* Usa flexbox para centrar contenido */
+    flex-direction: column;
+    /* Organiza los elementos en columna */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: center;
+    /* Centra verticalmente */
+    height: 100vh;
+    /* Ocupa toda la altura de la pantalla */
+    background: url(/images/landing.jpg) no-repeat center center/cover;
+    /* Imagen de fondo */
+    text-align: center;
+    /* Alinea el texto al centro */
+    color: #ffffff;
+    font-size: 40px;
+}
+
+#pprincipal {
+
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.caracteristica {
+    text-align: center;
+    /* Centra el texto */
+    max-width: 300px;
+    /* Limita el ancho */
+}
+
+.imagen {
+    height: 100px;
+    width: 100px;
+}
+
+.whats {
+    text-align: center;
+    /* Centra el texto */
+    color: #000000;
+    font-size: 40px;
+    margin-top: 50px;
+    /* Espaciado superior */
+    color: #000000;
+    font-size: 50px;
+}
+
+/* Sección verde con información sobre la app */
+.seccionapp {
+    display: flex;
+    /* Organiza los elementos en línea */
+    align-items: center;
+    /* Alineación vertical */
+    justify-content: space-between;
+    /* Espaciado uniforme */
+    background-color: #1DB954;
+    /* Color verde de Spotify */
+    padding: 50px;
+    /* Espaciado interno */
+    color: black;
+    /* Color del texto */
+    text-align: left;
+    /* Alinea el texto al centro */
+    color: #ffffff;
+    font-size: 35px;
+}
+
+/* Estilos para la imagen del reproductor de Spotify */
+.app {
+    max-width: 450px;
+    /* Ajusta el tamaño máximo de la imagen */
+}
+
+/* Estilos para el logo */
+.logo {
+    height: 80px;
+    /* Tamaño del logo */
+}
+
+.logo {
+    height: 60px;
+    height: 60px;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
